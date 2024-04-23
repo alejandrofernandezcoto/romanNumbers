@@ -1,6 +1,6 @@
 package edu.badpals;
 
-public enum RomanNumberValues {
+public enum RomanSymbols {
     I(1),
     V(5),
     X(10),
@@ -11,7 +11,7 @@ public enum RomanNumberValues {
 
     private int valorDecimal;
 
-    RomanNumberValues(int valorDecimal) {
+    RomanSymbols(int valorDecimal) {
         this.valorDecimal = valorDecimal;
     }
 

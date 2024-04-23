@@ -13,7 +13,7 @@ public class App {
                         "CDXLIV", // 444
                         "CDXXXIX" // 439
                 ).stream()
-                .map(RomanNumberValidate::new)
+                .map(RegexRomanNumbers::new)
                 .forEach(n -> System.out.println(n.toString() + " = " + n.toDecimal()));
     }
 }
